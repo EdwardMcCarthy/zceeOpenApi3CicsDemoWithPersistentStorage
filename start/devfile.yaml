@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: cics-egui-api
+  name: cics-egui-api-pv
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
@@ -9,7 +9,7 @@ projects:
         revision: main
       remotes:
         origin: 'https://github.com/EdwardMcCarthy/zceeOpenApi3CicsEgui.git'
-    name: cics-egui-api
+    name: cics-egui-api-pv
 components:
     - name: che-workspace
       container:
@@ -22,7 +22,7 @@ components:
             name: zosconnect-ui
             path: /zosConnect/designer/
             protocol: http
-            targetPort: 9080
+            targetPort: 12000
         env:
           - name: ZCON_DESIGNER_PROJECT
             value: /projects/cics-egui-api/start
