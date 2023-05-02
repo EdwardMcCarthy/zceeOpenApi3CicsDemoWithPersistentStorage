@@ -17,7 +17,7 @@ components:
         memoryLimit: 1024Mi      
         volumeMounts: 
           - name: data
-            path: /projects/cics-egui-api/start
+            path: /projects/cics-egui-api-pv/start
         mountSources: true
     - name: data
       volume:
