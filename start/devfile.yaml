@@ -29,7 +29,7 @@ components:
             name: zosconnect-ui
             path: /zosConnect/designer/
             protocol: http
-            targetPort: 12000
+            targetPort: 9080
         env:
           - name: ZCON_DESIGNER_PROJECT
             value: /projects/cics-egui-api/start
