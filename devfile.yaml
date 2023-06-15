@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: zcee-openapi3-cics-demo
+  name: zcee-openapi3-cics-demo-pv
 attributes:
   controller.devfile.io/storage-type: ephemeral
 projects:
@@ -8,7 +8,7 @@ projects:
       checkoutFrom:
         revision: main
       remotes:
-        origin: 'https://github.com/EdwardMcCarthy/zceeOpenApi3CicsEgui.git'
+        origin: 'https://github.com/EdwardMcCarthy/zceeOpenApi3CicsDemoWithPersistentStorage.git'
     name: cics-egui-api
 components:
     - name: che-workspace
